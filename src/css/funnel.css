@@ -1,0 +1,21 @@
+/*  Funnel Area */
+.nvd3.nv-funnel .nv-trapez text {
+  cursor: default;
+  font-weight: bold;
+  fill: #000;
+
+  stroke: #000;
+  stroke-width: 0;
+}
+.nvd3.nv-funnel .nv-trapez polygon {
+  transition: fill-opacity 250ms linear, stroke-width 250ms linear, stroke-opacity 250ms linear;
+  -moz-transition: fill-opacity 250ms linear, stroke-width 250ms linear, stroke-opacity 250ms linear;
+  -webkit-transition: fill-opacity 250ms linear, stroke-width 250ms linear, stroke-opacity 250ms linear;
+
+  stroke: #fff;
+  stroke-width: 1px;
+  stroke-opacity: 1;
+}
+.nvd3.nv-funnel .nv-trapez.hover polygon {
+  fill-opacity: .7;
+}
